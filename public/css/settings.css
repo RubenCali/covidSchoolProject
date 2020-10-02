@@ -1,0 +1,126 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+/* begin logo and back css */
+.logo img{
+    width: 170px;
+    height: auto;
+    margin-top: 10px;
+}
+.fa-undo-alt{
+    font-size: 30px;
+    margin-top: 510px;
+    margin-left: 56px;
+    color: black;
+}
+/* end logo and back css */
+
+/* begin account details */
+.account{
+    border: 1.2px solid black;
+    padding: 90px 30px;
+    width: 70%;
+    margin-top: 180px;
+    border-radius: 10px;
+    
+}
+.person{
+    text-align: center;
+    border: 1.2px solid black;
+   padding-top: 15px;
+    width: 80px;
+    height: 60px;
+    border-radius: 80px;  
+    margin-left: 44%;
+    margin-top: -130px;
+    background-color: white;
+    z-index: 3;
+}
+.name{
+    margin-left: 50px;
+}
+.password{
+    margin-left: 50px;
+}
+.email{
+    margin-right: 50px;
+}
+.fa-user{
+    font-size: 45px;
+}
+.text{
+    margin-top: -15px;
+}
+.email{
+    float: right;
+    margin-top: -100px;
+}
+.password{
+    margin-top: 70px;
+}
+.changePword{
+    font-size: 13px;
+}
+.changePword a{
+    color: rgb(51, 50, 50);
+}
+/* end account details */
+
+@media screen and (max-width: 400px){
+    .logo img{
+        width: 130px;
+        height: auto;
+        margin-top: 10px;
+    }
+    .fa-undo-alt{
+        font-size: 30px;
+        margin-top: 470px;
+        margin-left: 20px;
+        color: black;
+    }
+
+    
+    .account{
+        border: 1.2px solid black;
+        padding: 90px 30px;
+        width: 95%;
+        margin-top: 200px;
+        border-radius: 10px;
+        margin-left: -35%;
+    }
+    .person{
+        text-align: center;
+        border: 1.2px solid black;
+       padding-top: 15px;
+        width: 80px;
+        height: 60px;
+        border-radius: 80px;  
+        margin-left: 30%;
+        margin-top: -130px;
+        background-color: white;
+        z-index: 3;
+    }
+    .name{
+        margin-left: -10px;
+    }
+    .password{
+        margin-left: -10px;
+    }
+    .email{
+        margin-right: -10px;
+    }
+   
+    .email{
+        float: right;
+        margin-top: -95px;
+    }
+  
+}
+

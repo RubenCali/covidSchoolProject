@@ -1,0 +1,551 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* begin sidebar/navigatie */
+.sidenav {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(73, 70, 70);
+    overflow-x: hidden;
+  }
+  .settings{
+      font-size: 20px;
+      margin-top: 172.5%;
+
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+  } 
+  .home{
+      margin-top: 20px;
+  }
+ .sidenav a:hover{
+     color: rgb(235, 229, 229);
+     transition: .5s ease;
+ }
+
+.fa-home,
+.fa-cog,
+.fa-sign-out-alt{
+    margin-right: 10px;
+}
+  
+.sidenav input[type=text] {
+    
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  .sidenav img{
+width: 180px;
+height: auto;
+  }
+  /* einde sidebar/navigatie */
+
+
+
+
+
+
+
+
+/* begin sporten */
+.grid a {
+    text-decoration: none;
+}
+.layout{
+       background:  
+        linear-gradient(
+            rgba(0, 0, 0, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),
+          url(../img/backvoetbal.png);
+    background-size: cover;
+    background-position: center;
+    width: 360px;
+    height: 360px;
+}
+.layout:hover{
+    
+    transform: scale(1.07);
+    transition: .6s;
+   
+}
+.img1{
+    background:  
+    linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ),
+      url(../img/backvoetbal.png);
+background-size: cover;
+background-position: center;
+}
+.img2{
+    background:  
+    linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ),
+      url(../img/backkickboks.jpg);
+background-size: cover;
+background-position: center;
+}
+.img3{
+    background:  
+    linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ),
+      url(../img/backkobs.jpg);
+background-size: cover;
+background-position: center;
+}
+.img4{
+    background:  
+    linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ),
+      url(../img/backtennis.jpg);
+background-size: cover;
+background-position: center;
+}
+.img5{
+    background:  
+    linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ),
+      url(../img/backrugby.jpg);
+background-size: cover;
+background-position: center;
+}
+.img6{
+    background:  
+    linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ),
+      url(../img/backhockey.jpg);
+background-size: cover;
+background-position: center;
+}
+.img7{
+    background:  
+    linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ),
+      url(../img/backcycle.jpg);
+background-size: cover;
+background-position: center;
+}
+.img8{
+    background:  
+    linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ),
+      url(../img/backicehockey.jpg);
+background-size: cover;
+background-position: center;
+}
+.img9{
+    background:  
+    linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ),
+      url(../img/backbaseball.jpg);
+background-size: cover;
+background-position: center;
+}
+.img10{
+    background:  
+    linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ),
+      url(../img/backtable.jpg);
+background-size: cover;
+background-position: center;
+}
+.sport1 img{
+    margin-top: 30px; 
+}
+.resize1{
+    width: 105px;
+    height: auto;
+}
+.resize2{
+    width: 187px;
+    height: auto;
+}
+.resize3{
+    width: 220px;
+    height: auto;
+    margin-left: -20px;
+}
+.src{
+   display: none;
+}
+.resize4{
+    width: 185px;
+    height: auto;
+}
+.resize5{
+    width: 150px;
+    height: auto;
+}
+.resize6{
+    width: 160px;
+    height: auto;
+}
+.resize7{
+    width: 105px;
+    height: auto;
+}
+.resize8{
+    width: 215px;
+    height: auto;
+}
+.resize9{
+    width: 200px;
+    height: auto;
+}
+.resize10{
+    width: 150px;
+    height: auto;
+}
+.sport1 h2{
+    color: white;
+    margin-top: 0px;
+    font-size: 35px;
+  
+}
+
+
+.grid{
+    margin-left: 240px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    text-align: center;
+}
+
+/* einde sporten */
+
+/* begin footer */
+footer{
+    background-color: #333;
+    width: 100%;
+    color: white;
+    text-align: center;
+    
+}
+.btn{
+    background: white;
+    border: 1px solid white;
+}
+#demo{
+    padding: 10px;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: rgb(226, 223, 223);
+    transition: .5s ease;
+}
+/* end footer */
+
+/* media quaries begin */
+@media screen and (max-width: 400px){
+    .sidenav {
+        
+        height: 100vh;
+        width: 120px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        margin-left: -120px;
+     
+     
+     
+      
+      }
+      .settings{
+        font-size: 16px !important;
+        margin-top: 331%;
+  
+    }
+      .sidenav a {
+        padding: 2px 4px 3px 8px;
+       
+      } 
+     
+     
+    .signOut{
+        font-size: 18px !important;
+    }
+    .fa-home,
+    .fa-heart{
+        margin-right: 5px;
+    }
+    .fa-sign-out-alt{
+        margin-right: 3px;
+    }
+      
+   
+    
+      .sidenav img{
+    width: 120px;
+    height: auto;
+      }
+      .home{
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    .fa-bars{
+        font-size: 30px;
+       
+    }
+    .start{
+        color: black;
+        margin-left: 335px;
+        margin-top: 10px;
+       
+    }
+   
+    .stop{
+        color: black;
+        margin-left: 335px;
+       
+        
+     
+    }
+    .show{
+    margin-left: 0;
+    transition: .4s ease;
+
+    }
+  
+    .stopp{
+        margin-left: -120px;
+        transition: .4s ease;
+    }
+   
+
+
+   
+    .layout{
+           background:  
+            linear-gradient(
+                rgba(0, 0, 0, 0.45), 
+                rgba(0, 0, 0, 0.45)
+              ),
+              url(../img/backvoetbal.png);
+        background-size: cover;
+        background-position: center;
+        width: 170px;
+        height: 170px;
+    }
+    .layout:hover{
+        
+        transform: scale(1.07);
+        transition: .6s;
+       
+    }
+    .img1{
+        background:  
+        linear-gradient(
+            rgba(0, 0, 0, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),
+          url(../img/backvoetbal.png);
+    background-size: cover;
+    background-position: center;
+    }
+    .img2{
+        background:  
+        linear-gradient(
+            rgba(0, 0, 0, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),
+          url(../img/backkickboks.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+    .img3{
+        background:  
+        linear-gradient(
+            rgba(0, 0, 0, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),
+          url(../img/backkobs.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+    .img4{
+        background:  
+        linear-gradient(
+            rgba(0, 0, 0, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),
+          url(../img/backtennis.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+    .img5{
+        background:  
+        linear-gradient(
+            rgba(0, 0, 0, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),
+          url(../img/backrugby.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+    .img6{
+        background:  
+        linear-gradient(
+            rgba(0, 0, 0, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),
+          url(../img/backhockey.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+    .img7{
+        background:  
+        linear-gradient(
+            rgba(0, 0, 0, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),
+          url(../img/backcycle.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+    .img8{
+        background:  
+        linear-gradient(
+            rgba(0, 0, 0, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),
+          url(../img/backicehockey.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+    .img9{
+        background:  
+        linear-gradient(
+            rgba(0, 0, 0, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),
+          url(../img/backbaseball.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+    .img10{
+        background:  
+        linear-gradient(
+            rgba(0, 0, 0, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),
+          url(../img/backtable.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+
+    .sport1 img{
+        margin-top: 30px; 
+    }
+    .resize1{
+        width: 55px;
+        height: auto;
+    }
+    .resize2{
+        width: 100px;
+        height: auto;
+    }
+    .resize3{
+        width: 120px;
+        height: auto;
+        margin-left: -20px;
+    }
+    .resize4{
+        width: 87px;
+        height: auto;
+    }
+    .resize5{
+        width: 74px;
+        height: auto;
+    }
+    .resize6{
+        width: 80px;
+        height: auto;
+    }
+    .resize7{
+        width: 50px;
+        height: auto;
+    }
+    .resize8{
+        width: 105px;
+        height: auto;
+    }
+    .resize9{
+        width: 100px;
+        height: auto;
+    }
+    .resize10{
+        width: 66px;
+        height: auto;
+    }
+    .sport1 h2{
+        color: white;
+        margin-top: 0px;
+        font-size: 25px;
+      
+    }
+    
+    
+    .grid{
+        margin-left: 5px;
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 1em;
+        text-align: center;
+    }
+    .opa0{
+        opacity: 0;
+    }
+    .opa1{
+        opacity: 1;
+     }
+ 
+  
+  
+}
+
+
+/* medua queries end */
+  
+  
